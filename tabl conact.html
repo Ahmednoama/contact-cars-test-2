@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="table.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <a href="tabl conact.html"><input type="button" value="login" class="bot"  onclick="login()"></a>
+       <a href="tabl conact.html"><input type="button" value="Sign up" class="bot"   onclick="signup()" ></a>
+    <form> 
+      
+      
+      
+        <div class="login">
+        
+        <table class="main" style="display:block;">
+            
+            <tr>
+                <td>
+            <input type="email" placeholder="Enter your email">
+        </td>
+             </tr>
+             <tr>
+                 <td>
+                     <input type="password" placeholder="Enter your password">
+                 </td>
+             </tr>
+            
+        </table>
+   </div>
+    </form> 
+
+      
+<div class="signup">
+        
+        <table class="main" style="display: none;">
+            
+            <tr>
+                <td>
+            <input type="text" placeholder="Enter your name">
+        </td>
+             </tr>
+             <tr>
+                 <td>
+                     <input type="email" placeholder="Enter your email">
+                 </td>
+             </tr>
+             <tr>
+                 <td>
+                     <input type="password" placeholder="enter your password">
+                 </td>
+             </tr>
+            
+        </table>
+   </div>
+    </form> 
+    <script>
+        function login(){
+            var x=document.getElementsByClassName("login")
+          var y=document.getElementsByClassName("signup")
+          for(var i=0;i<y.length;i++)
+          { 
+               x[i].style.display="block"
+              y [i].style.display="none"
+                
+      
+          
+          }
+        }
+
+        function signup (signup){
+            var x=document.getElementsByClassName("login")
+          var y=document.getElementsByClassName("signup")
+          for(var i=0;i<y.length;i++)
+          { 
+               x[i].style.display="none"
+              y [i].style.display="block"
+                
+      
+          
+          }
+        }
+    </script>
+
+     
+
+
+</body>
+</html>

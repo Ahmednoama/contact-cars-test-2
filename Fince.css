@@ -1,0 +1,82 @@
+.main{
+    background-color: rgb(0, 81, 255);
+    
+}
+ 
+.li{
+    height: 3em;
+    display: flex;
+    margin-left: 20ex;
+    
+    
+}
+.t{
+    color: aliceblue;
+}
+
+.ul{
+   display: none;
+    
+
+}
+.o:hover ul{
+    display: block;
+    background-color: rgb(235, 235, 235);
+    box-shadow: 4em;
+    }
+
+.main2{
+    background-color: white;
+}
+.login{
+    margin-left: 50ex;
+}
+.half{
+    background-color: white;
+    
+}
+
+.main-footer{
+    background-color: rgb(2, 2, 73);
+    height: 10em;
+    width: 195ex;
+}
+.p{
+    color:White;
+    font-size: xx-large;
+    text-align:center;
+    margin-bottom: -0.4ex;
+}
+.fin{
+    width: 40em;
+    height: 25em;
+    background-color: rgb(223, 216, 207);
+    box-shadow: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.table-main{
+
+border-collapse: collapse;
+margin-left:-55em ;
+display: flex;
+justify-content: center;
+}
+.table-main td{
+    border-style: solid;
+}
+.table-main-2{
+    border-collapse: collapse;
+    margin-top: 8em;
+    display: flex;
+    margin-right: 4em;
+
+}
+.table{
+ 
+    justify-content: center;
+    display: flex;
+    height: 2em;
+    margin-bottom: 3em;
+}

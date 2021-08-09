@@ -1,0 +1,28 @@
+.login{
+    background-color: aqua;
+    width: 15em;
+    height: 5em;
+    justify-content: center;
+}
+.signup{
+    background-color: aqua;
+    width: 15em;
+    height: 5em;
+    justify-content: center;
+}
+
+.main{
+    border-collapse: collapse;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    border-style: solid;
+}
+.main td{
+    border-style: solid;
+}
+.bot{
+    background-color: blanchedalmond;
+    height: 2em;
+    width: 15ex;
+}
